@@ -1,12 +1,79 @@
-# React + Vite
+# 🚀 React Conference Schedule 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um site completo de conferência desenvolvido em React com Vite, estilizado com TailwindCSS, e hospedado no GitHub Pages. 
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** (com Vite)
+- **TailwindCSS**
+- **React Router**
+- **React Slick** (carrossel)
+- **GitHub Pages** (deploy)
 
-## Expanding the ESLint configuration
+## 🎯 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Página inicial responsiva com carrossel dinâmico
+- Lista de palestrantes com cards interativos
+- Agenda detalhada do evento
+- Página informativa com Código de Conduta
+- Página de compra de ingressos detalhada
+- Navbar responsiva e estilizada
+
+## 📂 Estrutura do Projeto
+
+```
+react-conference-schedule
+├── public
+├── src
+│   ├── assets
+│   ├── components
+│   ├── pages
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+## 🔧 Como executar localmente
+
+Clone o repositório e execute os comandos abaixo no seu terminal:
+
+```bash
+git clone https://github.com/Luckandrey/Conference-Schedule.git
+cd Conference-Schedule
+npm install
+npm run dev
+```
+
+Abra no navegador:
+
+```
+http://localhost:5173/
+```
+
+## 🚀 Como fazer deploy no GitHub Pages
+
+Execute o comando abaixo para fazer deploy automaticamente no GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+Acesse o site publicado em:
+
+```
+https://luckandrey.github.io/Conference-Schedule/
+```
+
+## 📬 Contato
+
+Para dúvidas ou sugestões, entre em contato comigo:
+
+- GitHub: [Luckandrey](https://github.com/Luckandrey)
+
+---
+
+✨ Feito com dedicação por [Luckandrey](https://github.com/Luckandrey) ✨
